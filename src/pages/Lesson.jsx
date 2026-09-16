@@ -482,7 +482,7 @@ const Lesson = () => {
                   setCurrentChapterIndex((prev) => Math.max(0, prev - 1))
                 }
                 disabled={currentChapterIndex === 0}
-                className="flex items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors py-2 px-4 rounded-xl hover:bg-slate-800"
+                className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-slate-400 hover:text-white disabled:opacity-30 disabled:hover:text-slate-400 transition-colors py-2 px-4 rounded-xl hover:bg-slate-800"
               >
                 <ChevronLeft className="w-4 h-4" /> Anterior
               </button>
@@ -494,14 +494,14 @@ const Lesson = () => {
                       Math.min(lesson.chapters.length - 1, prev + 1),
                     )
                   }
-                  className="flex items-center gap-2 text-sm font-semibold text-white bg-cyan-500 hover:bg-cyan-600 transition-colors py-2.5 px-5 rounded-xl shadow-md shadow-cyan-500/20"
+                  className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-white bg-cyan-500 hover:bg-cyan-600 transition-colors py-2.5 px-5 rounded-xl shadow-md shadow-cyan-500/20"
                 >
                   Próximo Capítulo <ChevronRight className="w-4 h-4" />
                 </button>
               ) : (
                 <button
                   onClick={() => navigate("/dashboard")}
-                  className="flex items-center gap-2 text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors py-2.5 px-5 rounded-xl shadow-md shadow-emerald-500/20"
+                  className="flex cursor-pointer items-center gap-2 text-sm font-semibold text-white bg-emerald-500 hover:bg-emerald-600 transition-colors py-2.5 px-5 rounded-xl shadow-md shadow-emerald-500/20"
                 >
                   <CheckCircle2 className="w-4 h-4" /> Concluir Módulo
                 </button>
