@@ -2,7 +2,7 @@
 
 O **LearnPulse** é uma aplicação web moderna voltada para a gestão e experiência de aprendizado online. O projeto conta com autenticação de usuários, interface responsiva e integração em tempo real com banco de dados em nuvem.
 
-🔗 **Link do Projeto:** [Insira aqui o link da Vercel/Netlify]
+🔗 **Link do Projeto:** https://learnpulse-beta.vercel.app/
 
 ---
 
