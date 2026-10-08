@@ -3,6 +3,7 @@
 O **LearnPulse** é uma aplicação web moderna voltada para a gestão e experiência de aprendizado online. O projeto conta com autenticação de usuários, interface responsiva e integração em tempo real com banco de dados em nuvem.
 
 NOTA: OS VALORES SÃO MERAMENTE ILUSTRATIVOS, ALOCADOS APENAS PARA DEMONSTRAR MAIOR VALIA ENTRE OS PLANOS. O USUÁRIO CADASTRADO PODE ALTERAR O PLANO.
+
 Planos (simulação): o plano ativo do usuário é guardado nos metadados do Supabase Auth (user_metadata.plan) e pode ser alterado por ele mesmo, já que não há pagamento. A coluna profiles.plan guarda só o valor inicial (enterprise, o plano gratuito) e não é atualizada nesta versão. Em um produto real, o plano seria definido no servidor após a confirmação do pagamento.
 
 🔗 **Link do Projeto:** https://learnpulse-beta.vercel.app/
